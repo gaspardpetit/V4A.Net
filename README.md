@@ -93,5 +93,3 @@ This library is a C# port of the Python `apply_diff` implementation from the **o
 
 MIT
 
-
-[^1](https://platform.openai.com/docs/guides/tools-apply-patch)
