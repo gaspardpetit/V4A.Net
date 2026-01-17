@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup Condition="'$(IsPackable)' != 'false'">
-    <Company>Docxport</Company>
+    <Company>V4A</Company>
     <Authors>Gaspard Petit</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
