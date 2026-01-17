@@ -11,7 +11,7 @@ V4A.Net implements the same patch application semantics used by OpenAI’s **app
 
 ## Purpose
 
-Modern AI tools like OpenAI’s **`apply-patch`** API return structured patch operations with diffs in a context-based format. Consumers of that API must parse and apply these patches locally. V4A.Net provides a faithful .NET implementation of this diff format’s application logic, matching the expectations of the `apply-patch` specification. ([OpenAI Platform][1])
+Modern AI tools like OpenAI’s **`apply-patch`** API return structured patch operations with diffs in a context-based format. Consumers of that API must parse and apply these patches locally. V4A.Net provides a faithful .NET implementation of this diff format’s application logic, matching the expectations of the `apply-patch` specification. ([OpenAI Platform](https://platform.openai.com/docs/guides/tools-apply-patch))
 
 ---
 
@@ -20,7 +20,7 @@ Modern AI tools like OpenAI’s **`apply-patch`** API return structured patch op
 Install via NuGet:
 
 ```powershell
-dotnet add package V4A.Net
+dotnet add package V4A
 ```
 
 ---
@@ -83,17 +83,6 @@ When contextual diffs can’t be matched exactly, the library attempts fuzzy mat
 
 ---
 
-## When to use
-
-Use V4A.Net when your application:
-
-* Receives patch outputs from an LLM via the **OpenAI `apply-patch` API**
-  (see the OpenAI docs on applying patches with V4A diffs). ([OpenAI Platform][1])
-* Needs to apply structured diff/patch responses programmatically in C#
-* Must handle context-based diff application rather than simple search/replace
-
----
-
 ## Attribution
 
 This library is a C# port of the Python `apply_diff` implementation from the **openai-agents-python** repository. The original Python version was authored by **Kazuhiro Sera** and released under the MIT license. Source implementations from the Python SDK serve as reference for semantics and behavior. ([OpenAI Platform][1])
@@ -103,3 +92,6 @@ This library is a C# port of the Python `apply_diff` implementation from the **o
 ## License
 
 MIT
+
+
+[^1](https://platform.openai.com/docs/guides/tools-apply-patch)
