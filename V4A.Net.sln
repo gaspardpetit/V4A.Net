@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V4A.Net", "V4A.Net\V4A.Net.csproj", "{0B31161D-06AA-47DB-BC5B-68A38ED43582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V4A.Net.Tests", "V4A.Net.Tests\V4A.Net.Tests.csproj", "{91706272-9930-4C2D-A8A0-6E42E4B3A349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B31161D-06AA-47DB-BC5B-68A38ED43582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B31161D-06AA-47DB-BC5B-68A38ED43582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B31161D-06AA-47DB-BC5B-68A38ED43582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B31161D-06AA-47DB-BC5B-68A38ED43582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91706272-9930-4C2D-A8A0-6E42E4B3A349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91706272-9930-4C2D-A8A0-6E42E4B3A349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91706272-9930-4C2D-A8A0-6E42E4B3A349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91706272-9930-4C2D-A8A0-6E42E4B3A349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39E641B2-39C4-42F7-9B23-14E253ECCADC}
+	EndGlobalSection
+EndGlobal
